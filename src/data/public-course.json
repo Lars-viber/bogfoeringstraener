@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "title": "Bogføringstræner – 15 bilag",
+  "introduction": "Arbejd med ét bilag ad gangen. Skriv beløbet på debet- eller kreditsiden af de fortrykte T-konti, og kontrollér derefter dit svar.",
+  "vouchers": [
+    {
+      "id": 1,
+      "date": "2025-01-03",
+      "text": "Virksomheden sælger varer til en dansk kunde for 12.500 kr. inkl. 25 % moms. Kunden betaler straks, og beløbet indsættes på bankkontoen.",
+      "amountOre": 1250000,
+      "vatContext": "Momspligtigt salg. Salgsmoms udgør 2.500 kr.",
+      "accounts": [{"number": 5820, "name": "Bankkonto"}, {"number": 1010, "name": "Salg af varer/ydelser m/moms"}, {"number": 6902, "name": "Udgående (salg) moms"}],
+      "learningAreas": ["salg", "udgående moms", "bank", "debet og kredit"]
+    },
+    {
+      "id": 2,
+      "date": "2025-01-05",
+      "text": "Virksomheden køber varer til videresalg for 25.000 kr. inkl. 25 % moms. Varerne betales straks via kassekreditten.",
+      "amountOre": 2500000,
+      "vatContext": "Fuldt momsfradrag. Købsmoms udgør 5.000 kr.",
+      "accounts": [{"number": 5520, "name": "Varelager"}, {"number": 6903, "name": "Indgående (køb) moms"}, {"number": 6750, "name": "Kassekredit"}],
+      "learningAreas": ["varekøb", "indgående moms", "kassekredit"]
+    },
+    {
+      "id": 3,
+      "date": "2025-01-07",
+      "text": "Der købes kopipapir, kuglepenne og mapper til kontoret for 2.500 kr. inkl. 25 % moms. Beløbet betales straks fra bankkontoen.",
+      "amountOre": 250000,
+      "vatContext": "Fuldt momsfradrag. Købsmoms udgør 500 kr.",
+      "accounts": [{"number": 3600, "name": "Kontorartikler og tryksager"}, {"number": 6903, "name": "Indgående (køb) moms"}, {"number": 5820, "name": "Bankkonto"}],
+      "learningAreas": ["omkostninger", "indgående moms", "bank"]
+    },
+    {
+      "id": 4,
+      "date": "2025-01-09",
+      "text": "Husleje for virksomhedens erhvervslokaler betales straks via kassekreditten. Fakturaen lyder på 12.500 kr. inkl. 25 % moms.",
+      "amountOre": 1250000,
+      "vatContext": "Fuldt momsfradrag. Købsmoms udgør 2.500 kr.",
+      "accounts": [{"number": 3410, "name": "Husleje"}, {"number": 6903, "name": "Indgående (køb) moms"}, {"number": 6750, "name": "Kassekredit"}],
+      "learningAreas": ["omkostninger", "indgående moms", "kassekredit"]
+    },
+    {
+      "id": 5,
+      "date": "2025-01-11",
+      "text": "En annonce for virksomhedens varer i en dansk avis koster 6.250 kr. inkl. 25 % moms. Beløbet betales straks fra bankkontoen.",
+      "amountOre": 625000,
+      "vatContext": "Fuldt momsfradrag. Købsmoms udgør 1.250 kr.",
+      "accounts": [{"number": 2800, "name": "Annoncer og reklame"}, {"number": 6903, "name": "Indgående (køb) moms"}, {"number": 5820, "name": "Bankkonto"}],
+      "learningAreas": ["omkostninger", "indgående moms", "bank"]
+    },
+    {
+      "id": 6,
+      "date": "2025-01-13",
+      "text": "Internetforbindelse til virksomhedens lokaler betales straks via kassekreditten med 1.250 kr. inkl. 25 % moms.",
+      "amountOre": 125000,
+      "vatContext": "Fuldt momsfradrag. Købsmoms udgør 250 kr.",
+      "accounts": [{"number": 3621, "name": "Internetforbindelse"}, {"number": 6903, "name": "Indgående (køb) moms"}, {"number": 6750, "name": "Kassekredit"}],
+      "learningAreas": ["omkostninger", "indgående moms", "kassekredit"]
+    },
+    {
+      "id": 7,
+      "date": "2025-01-15",
+      "text": "Virksomheden sælger varer til en dansk kunde for 18.750 kr. inkl. 25 % moms. Kunden betaler straks til bankkontoen.",
+      "amountOre": 1875000,
+      "vatContext": "Momspligtigt salg. Salgsmoms udgør 3.750 kr.",
+      "accounts": [{"number": 5820, "name": "Bankkonto"}, {"number": 1010, "name": "Salg af varer/ydelser m/moms"}, {"number": 6902, "name": "Udgående (salg) moms"}],
+      "learningAreas": ["salg", "udgående moms", "bank"]
+    },
+    {
+      "id": 8,
+      "date": "2025-01-17",
+      "text": "Rengøring af virksomhedens lokaler koster 3.750 kr. inkl. 25 % moms. Fakturaen betales straks via kassekreditten.",
+      "amountOre": 375000,
+      "vatContext": "Fuldt momsfradrag. Købsmoms udgør 750 kr.",
+      "accounts": [{"number": 3430, "name": "Vedligeholdelse og rengøring"}, {"number": 6903, "name": "Indgående (køb) moms"}, {"number": 6750, "name": "Kassekredit"}],
+      "learningAreas": ["omkostninger", "indgående moms", "kassekredit"]
+    },
+    {
+      "id": 9,
+      "date": "2025-01-19",
+      "text": "Virksomheden køber en mindre kontorlampe, som straks udgiftsføres som en mindre anskaffelse. Prisen er 5.000 kr. inkl. 25 % moms og betales fra bankkontoen.",
+      "amountOre": 500000,
+      "vatContext": "Fuldt momsfradrag. Købsmoms udgør 1.000 kr.",
+      "accounts": [{"number": 3617, "name": "Mindre anskaffelser"}, {"number": 6903, "name": "Indgående (køb) moms"}, {"number": 5820, "name": "Bankkonto"}],
+      "learningAreas": ["mindre anskaffelser", "indgående moms", "bank"]
+    },
+    {
+      "id": 10,
+      "date": "2025-01-21",
+      "text": "Revisor hjælper med bogføringen og sender en faktura på 7.500 kr. inkl. 25 % moms. Fakturaen betales straks via kassekreditten.",
+      "amountOre": 750000,
+      "vatContext": "Fuldt momsfradrag. Købsmoms udgør 1.500 kr.",
+      "accounts": [{"number": 3640, "name": "Revisor"}, {"number": 6903, "name": "Indgående (køb) moms"}, {"number": 6750, "name": "Kassekredit"}],
+      "learningAreas": ["omkostninger", "indgående moms", "kassekredit"]
+    },
+    {
+      "id": 11,
+      "date": "2025-01-23",
+      "text": "Banken hæver et kontogebyr på 600 kr. direkte på bankkontoen. Gebyret er uden moms.",
+      "amountOre": 60000,
+      "vatContext": "Ingen moms. Hele beløbet på 600 kr. bogføres som gebyr.",
+      "accounts": [{"number": 3628, "name": "Porto og gebyrer"}, {"number": 5820, "name": "Bankkonto"}],
+      "learningAreas": ["omkostninger uden moms", "bank"]
+    },
+    {
+      "id": 12,
+      "date": "2025-01-25",
+      "text": "Virksomheden betaler en vægtafgift på 4.200 kr. via kassekreditten. Opkrævningen er uden moms.",
+      "amountOre": 420000,
+      "vatContext": "Ingen moms. Hele beløbet på 4.200 kr. bogføres som vægtafgift.",
+      "accounts": [{"number": 3130, "name": "Vægtafgift"}, {"number": 6750, "name": "Kassekredit"}],
+      "learningAreas": ["omkostninger uden moms", "kassekredit"]
+    },
+    {
+      "id": 13,
+      "date": "2025-01-27",
+      "text": "Virksomheden sælger varer til en dansk erhvervskunde for 22.500 kr. inkl. 25 % moms. Kunden får fakturaen til betaling senere.",
+      "amountOre": 2250000,
+      "vatContext": "Momspligtigt salg. Salgsmoms udgør 4.500 kr.",
+      "accounts": [{"number": 5600, "name": "Debitorer"}, {"number": 1010, "name": "Salg af varer/ydelser m/moms"}, {"number": 6902, "name": "Udgående (salg) moms"}],
+      "learningAreas": ["salg", "udgående moms", "debitorer", "salg på kredit"]
+    },
+    {
+      "id": 14,
+      "date": "2025-01-29",
+      "text": "Virksomhedens skriveborde og kontorstole repareres for 8.125 kr. inkl. 25 % moms. Regningen betales straks via kassekreditten.",
+      "amountOre": 812500,
+      "vatContext": "Fuldt momsfradrag. Købsmoms udgør 1.625 kr.",
+      "accounts": [{"number": 3610, "name": "Rep./vedligeholdelse af inventar"}, {"number": 6903, "name": "Indgående (køb) moms"}, {"number": 6750, "name": "Kassekredit"}],
+      "learningAreas": ["reparation", "indgående moms", "kassekredit"]
+    },
+    {
+      "id": 15,
+      "date": "2025-01-31",
+      "text": "Virksomhedens optælling viser, at vareforbruget for januar udgør 30.000 kr. Beløbet overføres fra varelager til vareforbrug.",
+      "amountOre": 3000000,
+      "vatContext": "Ingen ny momsbehandling. Momsen blev behandlet ved varekøbet.",
+      "accounts": [{"number": 1330, "name": "Vareforbrug"}, {"number": 5520, "name": "Varelager"}],
+      "learningAreas": ["vareforbrug", "varelager", "ompostering uden betaling"]
+    }
+  ]
+}

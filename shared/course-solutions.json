@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "privacyCanary": "BOGFOERINGSTRAENER_PRIVATE_FACIT_V1_DO_NOT_BUNDLE",
+  "sourceControlTotals": {"postingCount": 42, "debitOre": 16042500, "creditOre": 16042500, "outputVatOre": 1075000, "inputVatOre": 1437500, "netVatReceivableOre": 362500},
+  "solutions": [
+    {
+      "voucherId": 1,
+      "entries": [{"accountNumber": 5820,"side":"debit","amountOre":1250000},{"accountNumber":1010,"side":"credit","amountOre":1000000},{"accountNumber":6902,"side":"credit","amountOre":250000}],
+      "hints": ["Tænk over, hvad der stiger, når kunden betaler, og hvordan en salgsindtægt normalt bogføres.","Beløbet er inklusive moms. Del derfor totalen i salg eksklusive moms og udgående moms.","Bankbeholdningen stiger, mens både salgsindtægten og den udgående moms skal registreres på den modsatte side."],
+      "stuckHint": "Start med bankkontoen: pengene kommer ind. Fordel derefter totalen mellem salg eksklusive moms og udgående moms.",
+      "explanation": "Kundens betaling øger bankkontoen, som derfor debiteres. Salget eksklusive moms og den udgående moms krediteres. Debet og kredit er begge 12.500,00 kr."
+    },
+    {
+      "voucherId": 2,
+      "entries": [{"accountNumber":5520,"side":"debit","amountOre":2000000},{"accountNumber":6903,"side":"debit","amountOre":500000},{"accountNumber":6750,"side":"credit","amountOre":2500000}],
+      "hints": ["Hvilke værdier får virksomheden, og hvordan finansieres købet?","Del købsprisen i vareværdi eksklusive moms og fradragsberettiget købsmoms.","Varelager og indgående moms vokser. Kassekreditten finansierer hele beløbet og står på den modsatte side."],
+      "stuckHint": "Placér vareværdien og købsmomsen på samme side. Hele betalingen via kassekredit skal balancere dem.",
+      "explanation": "Varelageret og tilgodehavendet for købsmoms stiger og debiteres. Kassekreditten øges og krediteres med hele betalingen. Begge sider er 25.000,00 kr."
+    },
+    {
+      "voucherId": 3,
+      "entries": [{"accountNumber":3600,"side":"debit","amountOre":200000},{"accountNumber":6903,"side":"debit","amountOre":50000},{"accountNumber":5820,"side":"credit","amountOre":250000}],
+      "hints": ["Se på omkostningen, momsen og den konto, der betaler.","Beløbet er inklusive moms og skal deles i kontorartikler eksklusive moms og købsmoms.","Omkostningen og købsmomsen stiger, mens bankbeholdningen falder."],
+      "stuckHint": "Kontorartikler og indgående moms står på samme side. Bankkontoen står på den anden, fordi pengene forlader banken.",
+      "explanation": "Kontorartikler og indgående moms debiteres. Bankkontoen krediteres, fordi betalingen reducerer bankbeholdningen. Begge sider er 2.500,00 kr."
+    },
+    {
+      "voucherId": 4,
+      "entries": [{"accountNumber":3410,"side":"debit","amountOre":1000000},{"accountNumber":6903,"side":"debit","amountOre":250000},{"accountNumber":6750,"side":"credit","amountOre":1250000}],
+      "hints": ["Overvej om huslejen er en omkostning, og hvad betalingen gør ved kassekreditten.","Fakturaen er inklusive moms. Find huslejen eksklusive moms og den fradragsberettigede købsmoms.","Husleje og indgående moms skal stå på samme side. Kassekreditten bærer hele betalingen på den anden side."],
+      "stuckHint": "Debiter husleje og indgående moms; den fulde betaling via kassekredit skal krediteres.",
+      "explanation": "Huslejen og købsmomsen debiteres. Kassekreditten krediteres med fakturaens fulde beløb. Debet og kredit er 12.500,00 kr."
+    },
+    {
+      "voucherId": 5,
+      "entries": [{"accountNumber":2800,"side":"debit","amountOre":500000},{"accountNumber":6903,"side":"debit","amountOre":125000},{"accountNumber":5820,"side":"credit","amountOre":625000}],
+      "hints": ["Find først omkostningen, momsen og betalingskontoen.","Annonceprisen er inklusive moms. Del den i annonceudgift eksklusive moms og købsmoms.","Annonceudgiften og købsmomsen stiger, mens bankkontoen falder med hele beløbet."],
+      "stuckHint": "Annoncer og indgående moms debiteres. Bankkontoen krediteres med den samlede betaling.",
+      "explanation": "Annonceudgiften og købsmomsen debiteres. Banken krediteres, fordi betalingen trækkes på bankkontoen. Begge sider er 6.250,00 kr."
+    },
+    {
+      "voucherId": 6,
+      "entries": [{"accountNumber":3621,"side":"debit","amountOre":100000},{"accountNumber":6903,"side":"debit","amountOre":25000},{"accountNumber":6750,"side":"credit","amountOre":125000}],
+      "hints": ["Tænk på internet som en omkostning og kassekredit som finansiering.","Del beløbet inklusive moms i internetudgift eksklusive moms og købsmoms.","Internet og indgående moms står på samme side; kassekreditten står på den modsatte."],
+      "stuckHint": "Debiter internet og indgående moms, og kreditér kassekreditten med hele fakturaen.",
+      "explanation": "Internetudgiften og købsmomsen debiteres. Kassekreditten krediteres med den fulde betaling. Begge sider er 1.250,00 kr."
+    },
+    {
+      "voucherId": 7,
+      "entries": [{"accountNumber":5820,"side":"debit","amountOre":1875000},{"accountNumber":1010,"side":"credit","amountOre":1500000},{"accountNumber":6902,"side":"credit","amountOre":375000}],
+      "hints": ["Hvad sker der med bankbeholdningen ved et kontant betalt salg?","Del salgsbeløbet inklusive moms i salg eksklusive moms og udgående moms.","Banken stiger på den ene side. Salg og udgående moms står samlet på den modsatte side."],
+      "stuckHint": "Debiter bankens fulde indbetaling, og kreditér salg eksklusive moms samt udgående moms.",
+      "explanation": "Bankkontoen debiteres med kundens betaling. Salget og den udgående moms krediteres. Debet og kredit er begge 18.750,00 kr."
+    },
+    {
+      "voucherId": 8,
+      "entries": [{"accountNumber":3430,"side":"debit","amountOre":300000},{"accountNumber":6903,"side":"debit","amountOre":75000},{"accountNumber":6750,"side":"credit","amountOre":375000}],
+      "hints": ["Se på rengøringsomkostningen, købsmomsen og betalingsformen.","Del totalen i rengøring eksklusive moms og fradragsberettiget købsmoms.","Rengøring og indgående moms står på samme side; kassekreditten bærer totalen på den anden."],
+      "stuckHint": "Debiter rengøring og indgående moms. Kreditér kassekreditten med hele betalingen.",
+      "explanation": "Rengøringsudgiften og købsmomsen debiteres. Kassekreditten krediteres. Begge sider er 3.750,00 kr."
+    },
+    {
+      "voucherId": 9,
+      "entries": [{"accountNumber":3617,"side":"debit","amountOre":400000},{"accountNumber":6903,"side":"debit","amountOre":100000},{"accountNumber":5820,"side":"credit","amountOre":500000}],
+      "hints": ["Lampen skal ifølge teksten udgiftsføres med det samme. Hvilken konto passer til det?","Del prisen inklusive moms i mindre anskaffelse eksklusive moms og købsmoms.","Mindre anskaffelser og indgående moms står på samme side, mens banken falder på den anden."],
+      "stuckHint": "Debiter mindre anskaffelser og indgående moms. Kreditér bankkontoen med den samlede betaling.",
+      "explanation": "Lampen udgiftsføres som mindre anskaffelse, og købsmomsen debiteres. Banken krediteres med 5.000,00 kr., så posteringen balancerer."
+    },
+    {
+      "voucherId": 10,
+      "entries": [{"accountNumber":3640,"side":"debit","amountOre":600000},{"accountNumber":6903,"side":"debit","amountOre":150000},{"accountNumber":6750,"side":"credit","amountOre":750000}],
+      "hints": ["Identificér revisorudgiften, momsen og finansieringen.","Fakturaen er inklusive moms. Beregn revisorudgiften eksklusive moms og købsmomsen.","Revisor og indgående moms står på samme side; kassekreditten står på den modsatte."],
+      "stuckHint": "Debiter revisor og indgående moms. Kreditér kassekreditten med hele fakturaen.",
+      "explanation": "Revisorudgiften og den fradragsberettigede købsmoms debiteres. Kassekreditten krediteres. Begge sider er 7.500,00 kr."
+    },
+    {
+      "voucherId": 11,
+      "entries": [{"accountNumber":3628,"side":"debit","amountOre":60000},{"accountNumber":5820,"side":"credit","amountOre":60000}],
+      "hints": ["Bilaget er uden moms. Se kun på gebyromkostningen og bankkontoen.","Et bankgebyr er en omkostning, og beløbet bliver hævet på banken.","Omkostningen stiger på debetsiden, mens bankbeholdningen falder på kreditsiden."],
+      "stuckHint": "Brug hele beløbet uden moms: gebyr i debet og bank i kredit.",
+      "explanation": "Hele gebyret debiteres på Porto og gebyrer. Bankkontoen krediteres med samme beløb. Der bogføres ingen moms."
+    },
+    {
+      "voucherId": 12,
+      "entries": [{"accountNumber":3130,"side":"debit","amountOre":420000},{"accountNumber":6750,"side":"credit","amountOre":420000}],
+      "hints": ["Bilaget er uden moms. Se på vægtafgiften og betalingskontoen.","Vægtafgiften er en omkostning, og betalingen går via kassekreditten.","Omkostningen står i debet; kassekreditten står i kredit med samme beløb."],
+      "stuckHint": "Brug hele beløbet uden moms: vægtafgift i debet og kassekredit i kredit.",
+      "explanation": "Vægtafgiften debiteres som omkostning, og kassekreditten krediteres med betalingen. Ingen moms indgår."
+    },
+    {
+      "voucherId": 13,
+      "entries": [{"accountNumber":5600,"side":"debit","amountOre":2250000},{"accountNumber":1010,"side":"credit","amountOre":1800000},{"accountNumber":6902,"side":"credit","amountOre":450000}],
+      "hints": ["Salget skal bogføres, når fakturaen udstedes, selv om kunden først betaler senere.","Overvej hvilken konto der viser virksomhedens tilgodehavende hos kunden. Del samtidig fakturabeløbet i salg eksklusive moms og udgående moms.","Virksomhedens tilgodehavende stiger på den ene side. Salget og den udgående moms står samlet på den modsatte side."],
+      "stuckHint": "Kunden har ikke betalt endnu, så bankkontoen skal ikke bruges. Registrér i stedet fakturaens fulde beløb som et tilgodehavende, og fordel kreditsiden mellem salg eksklusive moms og udgående moms.",
+      "explanation": "Debitorer debiteres med fakturaens fulde beløb, fordi virksomheden har et tilgodehavende hos kunden. Salget eksklusive moms og den udgående moms krediteres. Debet og kredit er begge 22.500,00 kr."
+    },
+    {
+      "voucherId": 14,
+      "entries": [{"accountNumber":3610,"side":"debit","amountOre":650000},{"accountNumber":6903,"side":"debit","amountOre":162500},{"accountNumber":6750,"side":"credit","amountOre":812500}],
+      "hints": ["Se på reparationsomkostningen, momsen og kassekreditten.","Del regningen inklusive moms i reparation eksklusive moms og købsmoms.","Reparation og indgående moms står på samme side; kassekreditten står på den modsatte."],
+      "stuckHint": "Debiter reparation af inventar og indgående moms. Kreditér kassekreditten med hele regningen.",
+      "explanation": "Reparationsudgiften og købsmomsen debiteres. Kassekreditten krediteres med den fulde betaling på 8.125,00 kr. Debet og kredit er begge 8.125,00 kr."
+    },
+    {
+      "voucherId": 15,
+      "entries": [{"accountNumber":1330,"side":"debit","amountOre":3000000},{"accountNumber":5520,"side":"credit","amountOre":3000000}],
+      "hints": ["Dette er en ompostering uden betaling og uden ny moms.","Vareforbrug stiger, mens værdien af varelageret falder.","Vareforbrug er en omkostning i debet, og varelageret reduceres i kredit."],
+      "stuckHint": "Debiter vareforbrug og kreditér varelager med det samme beløb. Brug ingen momskonto eller betalingskonto.",
+      "explanation": "Vareforbruget debiteres, og varelageret krediteres med 30.000,00 kr. Der sker ingen betaling og ingen ny momsbehandling."
+    }
+  ]
+}
