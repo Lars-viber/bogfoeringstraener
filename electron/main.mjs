@@ -26,7 +26,7 @@ function createWindow() {
     minWidth: 820,
     minHeight: 650,
     show: false,
-    backgroundColor: "#f4f1e8",
+    backgroundColor: "#f4f8fd",
     title: "Bogføringstræner",
     webPreferences: {
       preload: join(projectRoot, "electron", "preload.cjs"),
